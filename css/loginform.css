@@ -1,0 +1,126 @@
+			
+			.form-container{
+				position: fixed;
+				left: 0;top: 0;right: 0;bottom: 0;
+				background: lightgrey;
+				background: hsla(0,0%,0%,0.4);
+				display: none;
+			}
+			
+			.loginform{
+				position: absolute;
+				font-size: 1.2em;
+				width: 40%;
+				top: 50vh;
+				left: 50vw;
+				transform: translate(-50%,-50%);
+				padding: 5% 1em;
+				background: linear-gradient(to right top,hsla(35,90%,85%,1) 95%,transparent 0);
+				border-radius: 0.2em 0 .2em .2em;
+				box-shadow: -2px 2px 5px -2px gray;
+			}
+			
+			.loginform::before{
+				content: '';
+				position: absolute;
+				width: 10%;
+				height: 10%;
+				top: 0;right: 0;
+				background: linear-gradient(to left bottom,transparent 50%,hsla(35,90%,80%,1) 0);
+				box-shadow: -2px 2px 5px -2px gray;
+				border-radius: 0 0 0 .2em;
+			}
+			
+			.loginform>p{
+				width: 100%;
+				text-align: center;
+				font-size: 1.2em;
+				font-weight: 500;
+				margin: 0.1em auto .5em;
+				padding: .1em;
+				background: hsla(35,90%,90%,1);
+			}
+			
+			.loginform .choicebox{
+				text-align: center;
+				display: block;
+				font-size: .9em ;
+				white-space: nowrap;
+				overflow: hidden;
+				margin: .2em auto;
+			}
+			
+			.loginform .todobox{
+				margin: 0 auto;
+				padding: .1em;
+				display: none;
+			}
+			
+			.loginform .todobox p{
+				display: table-row;
+				margin: .2em;
+				position: relative;
+			}
+			
+			.loginform .todobox label{
+				padding: .1em;
+				text-align: right;
+				white-space: nowrap;
+				border-radius: .4em;
+				display: table-cell;
+				margin: .2em;
+				height: 1em;
+			}
+			
+			
+			.loginform .todobox input+span{
+				display: none;
+				font-size: .7em;
+				color: hsla(0,80%,55%,1);
+				max-width: 14em;
+			}
+			.loginform .todobox input:focus+span{
+				display: block;
+			}
+			
+			.loginform .todobox input{
+				display: table-cell;
+				font-size: .8em;
+				padding: .2em;
+				width: 90%;
+				margin: .2em;
+				border-radius: .1em;
+				border: 0;
+			}
+			
+			/*注意：input img等元素无法使用伪元素*/
+			
+			.loginform .submit{
+				text-align: center;
+				margin: .2em auto 0;
+			}
+			
+			.loginform .submit input[type='submit'],
+			.loginform .submit input[type='reset']{
+				font-size: .9em;
+				margin: .2em;
+				border-radius: 50%;
+				padding: .3em;
+				border: .5px solid hsla(0,0%,0%,0.1);
+				box-shadow: -2px 2px 5px -2px #696969;
+				background: hsl(0,0%,0%,.2);
+			}
+			
+			.loginform .submit input:focus{
+				outline: none;
+			}
+			
+			.loginform .submit input:hover{
+				cursor: pointer;
+			}
+			
+			.loginform .submit input:active{
+				box-shadow: inset 0 0 2px #696969;
+			}
+			
+			

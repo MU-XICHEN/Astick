@@ -1,0 +1,2 @@
+eventUtil(getQuestion);
+eventUtil(questionPrepare);

@@ -1,0 +1,51 @@
+	/*热门搜索模块*/
+	
+	.main .right{
+		display: inline-block;
+		margin: .5em;
+		width: 28%;
+		padding-top: 1em;
+	}
+	/*热搜推荐*/
+			.right .hot{
+				width: 100%;
+				padding: 0 0 .4em 0;
+				display: inline-block;
+				min-height: 5em;
+				border: 1px solid lightslategray;
+				border-radius: .2em;
+				background: hsla(40,70%,50%,0.2);
+			}
+			/*hsla(40,70%,50%,0.5)*/
+			.right .hot span{
+				display: block;
+				height: 2em;
+				line-height: 2em;
+				white-space: nowrap;
+				font-size: 1.2em;
+				text-align: center;
+				background: hsla(40,70%,50%,0.5);
+			}
+			.right .hot ol{
+				padding: .5em 0 0 2em;
+				white-space: nowrap;
+				overflow: hidden;
+				
+				text-align: left;
+			}
+			
+			.right .hot ol li{
+				padding: .2em;
+				font-size: 1em;
+			}
+			
+			.right .hot ol li a{
+				padding: .2em;
+				display: block;
+			}
+			
+			.right .hot ol li a:hover{
+				background: hsla(0,0%,0%,0.1);
+			}
+			
+			

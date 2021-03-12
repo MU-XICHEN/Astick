@@ -1,0 +1,92 @@
+a{
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+button:hover{
+	cursor: pointer;
+}
+button:focus{
+	outline: none;
+}
+textarea{
+	outline: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+			/*主界面*/
+			.main{
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-between;
+				margin: 3em auto 0;
+				width: 100%;
+				min-height: 100vh ;
+				border: 1px solid gray;
+				overflow: auto;
+			}
+			
+			
+			/*自定义单选框*/
+			.myradio +label{
+				position: relative;
+			}
+			
+			.myradio+label::before{
+				position: absolute;
+				content: '';
+				top: 0;bottom: 0;
+				left: -70%;
+				width: 1em;height: 1em;
+				background-color: white;
+				border-radius: 50%;
+				margin: auto;
+				border: 1px solid #696969;
+			}
+			
+			.myradio+label:hover{
+				cursor: pointer;
+			}
+			
+			.myradio:checked+label::before{
+				content: '\2713';
+			}
+			
+			/*自定义页面控制栏*/
+			.page_control{
+				float: right;
+				margin: 1em 1em 0 0;
+				font-size: .65em;
+			}
+			.page_control div{
+				display: inline-block;
+			}
+			.page_control button{
+				position: relative;
+				margin: .05em;
+				font-size: 1.4em;
+				background-color: transparent;
+				border: 0;
+				padding: .05em;
+			}
+			.page_control #page-input{
+				width: 1em;
+			}
+			.page_control #page-input:focus{
+				outline: none;
+			}
+			.page_control button:hover{
+				color: blue;
+				border-bottom: 1px black solid;
+			}
+			
+			#login-button-container{
+				font-size: 1em;
+			}
+			#login-button-container button{
+				
+			}
+			

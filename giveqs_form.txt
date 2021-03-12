@@ -1,0 +1,13 @@
+<div id="question-form-container" class="form-container">
+			<form id="question-form"  class="loginform" action="#question-form" method="post">
+				<h3>来!说出你的疑问!</h3>
+				<label for="question-input">问题标题:</label>
+				<input class="question-input" id="title-input"  placeholder="例:逸夫楼什么时候关门?" type="text" />
+				<p class="mycontentlabel">正文:</p>
+				<textarea id='content-input' placeholder="例如：逸夫楼关门具体时间？早上中午晚上？"></textarea>
+				<div class="submit">
+					<input id="submit-input"  type="submit"  value="提交" />
+					<input  type="reset" value="重置" />
+				</div>
+			</form>
+</div>

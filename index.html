@@ -1,0 +1,53 @@
+<!--主页模块-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/1index.css" />
+	</head>
+	<body>
+		<header id="myheader">
+			<div>
+				<h1>Astick</h1>
+				<form id="keyword-search" class="quesitonForm" action="return.html" method="get">
+					<div>
+						<input id="keyword-search-input" name="keyword" type="text"  placeholder="your question" /><input type="submit" value="查询">
+					</div>
+				</form>
+				
+				<div id="login-button-container">
+					<button id="give-question-button">提问</button>
+					<button id="login-or-registry-button" >登录/注册</button>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<div class="stick-block">
+				<!--推荐问题模块-->
+				<div class="TOP">
+					<div class="TOP-tl">Top Questins</div>
+					<div id="TOP-br" class="TOP-br">
+						<p id="sortBy" style="display: none;">sort1</p>
+						<a id="sort1" href="#">时间</a><a id="sort2" href="#">推荐度</a><a id="sort3" href="#">评论数</a>
+					</div>
+				</div>
+				<div id="blocks" class="blocks">
+					<button id="get-data-button">准备好了吗，开始吧~</button>
+				</div>
+			</div>
+			
+			<div class="right">
+				<!--热门搜索模块-->
+				<div id="hot" class="hot">
+					<span>热门搜索</span>
+				</div>
+			</div>
+		</div>
+		<script src="js/global.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/index_getFunc.js"></script>
+		<script src="js/loginform.js"></script>
+		<script src="js/loginform_getFunc.js"></script>
+	</body>
+</html>

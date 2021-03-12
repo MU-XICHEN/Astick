@@ -1,0 +1,57 @@
+		<div id="form-container" class="form-container">
+			<form id="login-or-registry" class="loginform" action="#form-container" method="post">
+				<p>登录/注册</p>
+				
+				<div class="choicebox">
+					<input checked class="myradio" type="radio" name="action" value="1" id="loginradio"/>
+					<label for="loginradio">登录</label>
+					<input class="myradio" type="radio" name="action" value="2" id="registryradio"/>
+					<label for="registryradio">注册</label>
+				</div>
+				
+				<div id="loginbox" class="todobox">
+					<p>
+						<label for="loginaddr">邮箱:</label>
+						<input name='loginaddr' id="loginaddr" type="text" placeholder="例: 965450326@qq.com" />
+						<span>标准邮箱格式，6-20字符</span>
+					</p>
+					
+					<p>
+						<label for="loginpassword">密码:</label>
+						<input name="loginpassword" id="loginpassword"  type="password" placeholder="例: 123chj"/>
+						<span>密码长度是6-18,只允许数字、大小写字母</span>
+					</p>
+					
+				</div>
+				
+				<div id="registrybox" class="todobox">
+					<p>
+						<label for="registryname">用户名称:</label>
+						<input id="registryname" name="registryname" placeholder="例:John" />
+						<span>长度4到16位（字母，数字，下划线，减号）</span>
+					</p>
+					
+					<p>
+						<label for="registryaddr">注册邮箱:</label>
+						<input type="text"  placeholder="例:965450326@qq.com" id="registryaddr"/>
+						<span>标准邮箱格式，6-20字符</span>
+					</p>
+					
+					<p>
+						<label for="registrypassword" >用户密码:</label>
+						<input id="registrypassword" type="password" placeholder="123chj"/>
+						<span>密码长度是6-18,只允许数字、大小写字母</span>
+					</p>
+					<p>
+						<label for="passwordagain">确认密码:</label>
+						<input id="passwordagain" type="password" type="text" placeholder="again" />
+						<span>密码长度是6-18,只允许数字、大小写字母</span>
+					</p>
+				</div>
+					
+				<div class="submit">
+					<input id="mysubmit" type="submit"  value="提交" />
+					<input id="myreset" type="reset" value="重置" />
+				</div>
+			</form>
+		</div>

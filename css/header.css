@@ -1,0 +1,137 @@
+			/*视口顶部栏目*/
+			header{
+				position: absolute;
+				z-index: 3;
+				margin: 0;
+				position: fixed;
+				top: 0; left: -.8em;
+				width: 100vw;
+				height: 3em;
+				line-height: 1.5em;
+				background: hsla(30,62%,60%,1);
+			}
+			
+			header>div:first-child{
+				display: flex;
+				width: 90%;
+				height: 100%;
+				margin: auto;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: nowrap;
+				overflow: hidden;
+			}
+			
+			header>div h1{
+				font: 1.8em ;
+				color: dimgray;
+				padding: .3em;
+				text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+				border-radius: 50%;
+				background: #B0C4DE;
+			}
+			
+			.quesitonForm{
+				display: inline-block;
+			}
+			
+			.quesitonForm div{
+				border-radius: .5em;
+				background: white;
+				overflow: hidden;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			
+			.quesitonForm div input[type="text"]{
+				margin: 0;
+				vertical-align: middle;
+				font-size: 1.1em;
+				padding: .2em;
+				width: 30vw;
+				border: 0;
+				outline: none;
+			}
+			
+			.quesitonForm div input[type='submit']{
+				vertical-align: middle;
+				height: inherit;
+				padding: .5em .5em .5em .6em;
+				border-radius: .2em .3em .3em .2em;
+				border: 0;
+				background: rgba(0,0,0,.2);
+			}
+			
+			.quesitonForm div input[type='submit']:hover,
+			.quesitonForm div input[type='submit']:focus
+			{
+				cursor: pointer;
+				background: rgba(0,0,0,.3) ;
+			}
+			
+			.quesitonForm div input[type='submit']:active{
+				background:rgba(0,0,0,.2);
+			}
+			
+			#give-question-button{
+				font-size: 1em;
+				border-radius: .2em;
+				padding: .1em .2em;
+				border: 1px gray solid;
+				box-shadow: 3px 3px 4px -3px black;
+			}
+			
+			#give-question-button:active{
+				border: .5px gray solid;
+				box-shadow: 0px 0px 0px 0px black;
+			}
+			
+			#login-button-container{
+				white-space: nowrap;
+			}
+			
+			#out-button-container{
+				display: inline-block;
+			}
+			#question-form{
+				overflow: hidden;
+			}
+			
+			#question-form textarea{
+				min-height: 5em;
+				width: 100%;
+				resize: none;
+				border-radius: .2em;
+				font-size: 1em;
+			}
+			
+			#question-form h3{
+				background: ;
+				width: 100%;
+				text-align: center;
+				margin: .5em;
+				font-size: 1.2em;
+				background: hsla(0,0%,0%,.15);
+				padding: .1em;
+			}
+			
+			#question-form .question-input{
+				font-size: .9em;
+				width: 100%;
+				padding: .1em .1em .1em 0;
+			}
+			
+			#question-form .question-input{
+				font-size: 1em;
+				width: 100%;
+			}
+			
+			#question-form .mycontentlabel{
+				text-align: left;
+				margin: .2em 0 .1em;
+			}
+			
+			
+			
+
+			

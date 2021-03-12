@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/1question.css"/>
+	</head>
+	<body>
+		
+		<header id="myheader">
+			<div>
+				<h1>Astick</h1>
+				<div id="login-button-container">
+					<a id="login-or-registry-button" href="login.html">登录/注册</a>
+				</div>
+			</div>
+		</header>
+		
+		<div id="detailOfquestion" class="main">
+			<!--问题模块-->
+			<div id="question-box" class="quesiton-box">
+				<p id="question-id">问题编号</p>
+				<h2 id="question-title" class="question-title">title</h2>
+				<div id="question-content" class="quesiton-content">
+					内容
+				</div>
+				<div id="question-br" class="quesiton-br">
+					<!--点赞数、评论数、用户、时间-->
+					<p><button id="qsbr-likeNum">0</button></p><p><button id="qsbr-contentNum">0</button></p><a id="qsbr-username">username</a><p id="qsbr-time">time</p>
+				</div>
+			</div>
+			<!--question end-->
+			<!--回答模块-->
+			<div id="answer-box" class="answer-box">
+				<!--回答盒子-->
+				
+				<!--end answerbox-->
+			</div>
+			<!--end answer-->
+			
+			<!--你的回答-->
+			<div id="answerTheMain" class="anserTheMain">
+				<textarea id="answer-textarea" placeholder="输入你的回答" ></textarea>
+				<button id="anwser-button">回复</button>
+			</div>
+			<!--end of input answer-->
+		</div>
+	</body>
+	<script src="js/global.js"></script>
+	<script src="js/question.js"></script>
+	<script src="js/question_getFunc.js"></script>
+	<script src="js/loginform.js"></script>
+	<script src="js/loginform_getFunc.js"></script>
+</html>

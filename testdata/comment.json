@@ -1,0 +1,14 @@
+{
+	"status":1,
+	"detail":{
+		"qsid":"fdas",
+		"where":2,
+		"answerid":"a1-a1",
+		"id":"a1-a3",
+		"addr":"4739@eq.com",
+		"username":"James",
+		"targetname":"Kobe",
+		"targetaddr":"41@eq.cim",
+		"comment":"真好看"
+	}
+}

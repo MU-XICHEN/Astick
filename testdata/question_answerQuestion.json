@@ -1,0 +1,10 @@
+{
+	"status":1,
+	"detail":{
+			"id":"a4",
+			"username":"Marry",
+			"addr":"fdasf@eq.com",
+			"comment":"我觉得不错",
+			"givetime":"2020/5/6"
+		}
+}
